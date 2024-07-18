@@ -13,10 +13,7 @@ I decide to check the source code
 
 ![VIEW-SOURCE](https://github.com/user-attachments/assets/8d58169a-dd2b-4e63-a59d-2f09d63687c8)
 
-I try to understand the code.
-
-![image](https://github.com/user-attachments/assets/6dc497f2-a20c-4250-9b57-bc1302e514b8)
-
+I try to understand what the code does.
 
 This HTML and JavaScript code creates a simple authentication prompt on a webpage.\ 
 When the page loads, it prompts the user for a username and password. \

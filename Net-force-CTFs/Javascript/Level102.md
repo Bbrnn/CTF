@@ -16,7 +16,7 @@ This JavaScript code defines a function submitentry() that verifies a password e
 It uses a string numletter that contains all digits, lowercase letters, and uppercase letters. \
 The function constructs a password by extracting specific characters from this string using the substring() method.
 
-Now that we have understood the code,lets try to extract ech character and combinign them to form  password\
+Now that we have understood the code,lets try to extract each character and combining them to form  password\
 
 var numletter="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 

@@ -26,8 +26,9 @@ Here are the index position of each character of the numletter variable\
 | Value |  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |  a |  b |  c |  d |  e |  f |  g |  h |  i |  j |  k |  l |  m |  n |  o |  p |  q |  r |  s |  t |  u |  v |  w |  x |  y |  z |  A |  B |  C |  D |  E |  F |  G |  H |  I |  J |  K |  L |  M |  N |  O |  P |  Q |  R |  S |  T |  U |  V |  W |  X |  Y |  Z |
 
 We have to understand the substring fucntionality so as to extract the password\
-The substring(start, end) method in JavaScript returns the part of the string between the start and end indices.\
-The character at the start index is included, but the character at the end index is not included.
+The password is constructed by concatenating characters from the numletter string.\
+The substring() method extracts characters at specified positions:
+It extracts characters from a string between two specified indices. The first index is inclusive, and the second index is exclusive. This means that substring(23, 24) extracts the character at index 23, not 24.
 
 let's reconstruct the password step by step:
 

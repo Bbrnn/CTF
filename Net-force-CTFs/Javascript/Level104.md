@@ -14,14 +14,14 @@ Line 17 strikes my attention. It is a comment but it seems to be decoded
 
 I start my research since I didn't know what unescape function is.
 
-In MDN docs,\
+In MDN docs,
+
 The unescape() function replaces any escape sequence with the character that it represents.\ 
-Specifically, it replaces any escape sequence of the form %XX or %uXXXX (where X represents one hexadecimal digit) with the character that has the hexadecimal value XX/XXXX. \
-If the escape sequence is not a valid escape sequence (for example, if % is followed by one or no hex digit), it is left as-is.
+Specifically, it replaces any escape sequence of the form %XX or %uXXXX (where X represents one hexadecimal digit) with the character that has the hexadecimal value XX/XXXX. If the escape sequence is not a valid escape sequence (for example, if % is followed by one or no hex digit), it is left as-is.
 
 This means that\
 unescape decodes URL-encoded strings containing escape sequences.
-Example: unescape("%3Cdiv%3E") returns <div>.
+Example: unescape("%3Cdiv%3E") returns div tag
 
 To decode the whole string I pasted it to **cyberchef** and used the URL decode to decodde the whole string
 
